@@ -29,6 +29,11 @@ GEM
       tzinfo (~> 1.1)
     acts_as_votable (0.10.0)
     arel (5.0.1.20140414130214)
+    aws-sdk (1.58.0)
+      aws-sdk-v1 (= 1.58.0)
+    aws-sdk-v1 (1.58.0)
+      json (~> 1.4)
+      nokogiri (>= 1.4.4)
     bcrypt (3.1.9)
     bootstrap-sass (3.3.1.0)
       sass (~> 3.2)
@@ -204,6 +209,7 @@ PLATFORMS
 
 DEPENDENCIES
   acts_as_votable (~> 0.10.0)
+  aws-sdk
   bootstrap-sass (~> 3.3.1)
   carrierwave
   coffee-rails (~> 4.0.0)

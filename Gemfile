@@ -10,6 +10,7 @@ gem 'turbolinks'
 gem 'simple_form'
 gem 'devise'
 gem 'carrierwave'
+gem 'aws-sdk'
 gem 'fog'
 gem 'figaro'
 gem "paperclip", "~> 4.2"
